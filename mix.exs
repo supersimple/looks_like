@@ -1,12 +1,13 @@
 defmodule LooksLike.MixProject do
   use Mix.Project
 
-  @version 0.1.0
+  @version "0.1.1"
+
   @source_url "https://github.com/supersimple/looks_like"
   def project do
     [
       app: :looks_like,
-      version: "0.1.0",
+      version: @version,
       elixir: "~> 1.12",
       start_permanent: Mix.env() == :prod,
       description: description(),
@@ -41,7 +42,7 @@ defmodule LooksLike.MixProject do
     [
       name: "looks_like",
       maintainers: ["supersimple"],
-      licenses: ["MIT"],,
+      licenses: ["MIT"],
       links: %{"GitHub" => @source_url},
       files: ["lib", "mix.exs", "README.md"],
     ]

@@ -1,6 +1,9 @@
-# LooksLike
+# Looks Like
 
-**TODO: Add description**
+Looks Like is a library that evaluates if some data looks like some known pattern.
+
+For example, does this string look like an IP address?
+
 
 ## Installation
 
